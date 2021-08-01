@@ -1,0 +1,10 @@
+Composite: When I check 5 Summary blocks
+When I initialize the SCENARIO variable `counter` with value `0`
+When I execute steps while counter is not equal to `5` with increment `1` starting from `0`:
+|step|
+|When I wait until element located `By.xpath((//a[starts-with(@href,"/detailsPage")])[#{eval(${counter} + 1)}])` appears|
+|When I click on element located `By.xpath((//a[starts-with(@href,"/detailsPage")])[#{eval(${counter} + 1)}])`| 
+|When I change context to element located `By.xpath(//div[contains(text(),'Summary')])`|
+|When I compare against baseline with `Summary`|
+|When I navigate back|
+|When I initialize the SCENARIO variable `counter` with value `#{eval(${counter} + 1)}`| 
