@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Mentoring Tests",
+    "children" : [ {
+      "name" : "HealthCheck",
+      "children" : [ {
+        "name" : "Open application under test",
+        "uid" : "855813c0f1c6419a",
+        "parentUid" : "6fbe5d23d18bfda08535e11b7933325a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627818370266,
+          "stop" : 1627818376584,
+          "duration" : 6318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Verify page title",
+        "uid" : "7d58de55c345e27",
+        "parentUid" : "6fbe5d23d18bfda08535e11b7933325a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627818376598,
+          "stop" : 1627818383238,
+          "duration" : 6640
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6fbe5d23d18bfda08535e11b7933325a"
+    } ],
+    "uid" : "28c5e4847678b31b078f68a7a95e659c"
+  } ]
+}

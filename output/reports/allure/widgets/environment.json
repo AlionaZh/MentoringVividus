@@ -1,0 +1,37 @@
+[ {
+  "values" : [ "web" ],
+  "name" : "Suites"
+}, {
+  "values" : [ "mentoring" ],
+  "name" : "Environments"
+}, {
+  "values" : [ "web/desktop/chrome" ],
+  "name" : "Profiles"
+}, {
+  "values" : [ "OFF" ],
+  "name" : "Proxy"
+}, {
+  "values" : [ "Windows 10" ],
+  "name" : "Operating System"
+}, {
+  "values" : [ "chrome " ],
+  "name" : "Browser"
+}, {
+  "values" : [ "OFF" ],
+  "name" : "Remote Execution"
+}, {
+  "values" : [ "story/web" ],
+  "name" : "Batch 1 Location"
+}, {
+  "values" : [ "HealthCheck.story" ],
+  "name" : "Batch 1 Include Patterns"
+}, {
+  "values" : [ "1" ],
+  "name" : "Batch 1 Threads"
+}, {
+  "values" : [ "groovy: (!layout || layout.contains('desktop')) && !skip && (true)" ],
+  "name" : "Global Meta Filters"
+}, {
+  "values" : [ "https://trello.com/" ],
+  "name" : "Main Application Page"
+} ]

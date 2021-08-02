@@ -12,5 +12,4 @@
 **/.idea
 
 #Build Dirs#
-output/
 .out/**

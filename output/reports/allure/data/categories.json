@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "1) Page title [Expected: \"Vividus Test Site\" Actual: was \"Trello\"]",
+      "children" : [ {
+        "name" : "Verify page title",
+        "uid" : "7d58de55c345e27",
+        "parentUid" : "62d5782ea7dc083680c1ca5f2a5e77b5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627818376598,
+          "stop" : 1627818383238,
+          "duration" : 6640
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "62d5782ea7dc083680c1ca5f2a5e77b5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,1628 @@
+{
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/HealthCheck.story][scenario: Open application under test-0]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "478b8d28e9d07bba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627230124735,
+        "stop" : 1627230129536,
+        "duration" : 4801
+      }
+    }, {
+      "uid" : "c4bee6f174e336f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627230090318,
+        "stop" : 1627230095351,
+        "duration" : 5033
+      }
+    } ]
+  },
+  "[batch: Mentoring Tests][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/MentoringStory.story][scenario: Task 3-0]" : {
+    "statistic" : {
+      "failed" : 8,
+      "broken" : 10,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 18
+    },
+    "items" : [ {
+      "uid" : "a0ca04d35fd2a2f9",
+      "status" : "failed",
+      "statusDetails" : "1) Visual check passed [The condition is false]",
+      "time" : {
+        "start" : 1627817688744,
+        "stop" : 1627817703919,
+        "duration" : 15175
+      }
+    }, {
+      "uid" : "cf4739870c902b11",
+      "status" : "failed",
+      "statusDetails" : "1) Visual check passed [The condition is false]",
+      "time" : {
+        "start" : 1627815793081,
+        "stop" : 1627815808411,
+        "duration" : 15330
+      }
+    }, {
+      "uid" : "b1df8a3a6f584241",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.107)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0eae5d540da95f6f870e8cd20b78066e",
+      "time" : {
+        "start" : 1627814699960,
+        "stop" : 1627814712030,
+        "duration" : 12070
+      }
+    }, {
+      "uid" : "d1b017095583a27a",
+      "status" : "failed",
+      "statusDetails" : "1) Visual check passed [The condition is false]",
+      "time" : {
+        "start" : 1627814544808,
+        "stop" : 1627814561682,
+        "duration" : 16874
+      }
+    }, {
+      "uid" : "d7ca5799e771b98e",
+      "status" : "failed",
+      "statusDetails" : "1) Visual check passed [The condition is false]",
+      "time" : {
+        "start" : 1627814399136,
+        "stop" : 1627814416340,
+        "duration" : 17204
+      }
+    }, {
+      "uid" : "d76acfdb28ddeddb",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.107)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 304b4b1c49afc5b16c409f0e394a1cf2\n*** Element info: {Using=xpath, value=//div[contains(normalize-space(text()),'Summary')]}",
+      "time" : {
+        "start" : 1627814357652,
+        "stop" : 1627814378307,
+        "duration" : 20655
+      }
+    }, {
+      "uid" : "405a1d187b42115a",
+      "status" : "failed",
+      "statusDetails" : "1) Visual check passed [The condition is false]",
+      "time" : {
+        "start" : 1627813996031,
+        "stop" : 1627814012523,
+        "duration" : 16492
+      }
+    }, {
+      "uid" : "985d911c17594ec1",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.107)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b611015e77bb80000ba47e5786fe09e5",
+      "time" : {
+        "start" : 1627813972162,
+        "stop" : 1627813984234,
+        "duration" : 12072
+      }
+    }, {
+      "uid" : "9c392c3149e36204",
+      "status" : "failed",
+      "statusDetails" : "1) Visual check passed [The condition is false]\r\n2) Visual check passed [The condition is false]",
+      "time" : {
+        "start" : 1627813741050,
+        "stop" : 1627813756892,
+        "duration" : 15842
+      }
+    }, {
+      "uid" : "77797ef4b468c5d3",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64574}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 7a27dd456254638839711f3892f49a5d",
+      "time" : {
+        "start" : 1627813591239,
+        "stop" : 1627813598081,
+        "duration" : 6842
+      }
+    }, {
+      "uid" : "1051d4e00a37c3d3",
+      "status" : "broken",
+      "statusDetails" : "Search context is null, please check is browser session started",
+      "time" : {
+        "start" : 1627813534371,
+        "stop" : 1627813542316,
+        "duration" : 7945
+      }
+    }, {
+      "uid" : "a8dd450bfdda8e53",
+      "status" : "broken",
+      "statusDetails" : "Search context is null, please check is browser session started",
+      "time" : {
+        "start" : 1627813478721,
+        "stop" : 1627813486828,
+        "duration" : 8107
+      }
+    }, {
+      "uid" : "21bc2e2f78db836b",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52096}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d30aac73d150f62cdebcaa8d541b0bcc",
+      "time" : {
+        "start" : 1627813413284,
+        "stop" : 1627813418856,
+        "duration" : 5572
+      }
+    }, {
+      "uid" : "ae8002f6454d737d",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52707}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eca34e205126d064f0724f2352ee2a12",
+      "time" : {
+        "start" : 1627813338829,
+        "stop" : 1627813345664,
+        "duration" : 6835
+      }
+    }, {
+      "uid" : "98401efd360bd95d",
+      "status" : "broken",
+      "statusDetails" : "Search context is null, please check is browser session started",
+      "time" : {
+        "start" : 1627813309010,
+        "stop" : 1627813317232,
+        "duration" : 8222
+      }
+    }, {
+      "uid" : "ac0610a8494c7433",
+      "status" : "broken",
+      "statusDetails" : "Search context is null, please check is browser session started",
+      "time" : {
+        "start" : 1627813282987,
+        "stop" : 1627813290671,
+        "duration" : 7684
+      }
+    }, {
+      "uid" : "c8c5242fbcb91357",
+      "status" : "failed",
+      "statusDetails" : "1) Visual check passed [The condition is false]\r\n2) Visual check passed [The condition is false]",
+      "time" : {
+        "start" : 1627813087744,
+        "stop" : 1627813103236,
+        "duration" : 15492
+      }
+    }, {
+      "uid" : "19923fe65d40c834",
+      "status" : "failed",
+      "statusDetails" : "1) Visual check passed [The condition is false]\r\n2) Visual check passed [The condition is false]",
+      "time" : {
+        "start" : 1627812991308,
+        "stop" : 1627813012946,
+        "duration" : 21638
+      }
+    } ]
+  },
+  "[batch: Mentoring Tests][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/MentoringStory.story][scenario: Task 1 - Find info on learn.epam.com using Examples table [2]-0]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "3ce5dec7789140ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627817669590,
+        "stop" : 1627817673506,
+        "duration" : 3916
+      }
+    }, {
+      "uid" : "d0fda518f35e0ee0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627817209337,
+        "stop" : 1627817213152,
+        "duration" : 3815
+      }
+    }, {
+      "uid" : "647e408fae47f64a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627817090876,
+        "stop" : 1627817094692,
+        "duration" : 3816
+      }
+    }, {
+      "uid" : "3a33bc751bfc0378",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627815773176,
+        "stop" : 1627815777026,
+        "duration" : 3850
+      }
+    }, {
+      "uid" : "98c936f29bd9362a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627813067968,
+        "stop" : 1627813071926,
+        "duration" : 3958
+      }
+    }, {
+      "uid" : "cfa510c2e40a9bea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627812489169,
+        "stop" : 1627812493731,
+        "duration" : 4562
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/Mentoring.story][scenario: Navigate to watchlist if the user doesn't log in yet-0]" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "b383b4c45d453afa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627327091235,
+        "stop" : 1627327107202,
+        "duration" : 15967
+      }
+    }, {
+      "uid" : "6754e31c9e30d6e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627317072872,
+        "stop" : 1627317087862,
+        "duration" : 14990
+      }
+    }, {
+      "uid" : "312e22de05aba09d",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '//input[@id=\"signInSubmit\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+      "time" : {
+        "start" : 1627316988042,
+        "stop" : 1627317011631,
+        "duration" : 23589
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/Mentoring.story][scenario: Open movie page-0]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 4,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "a909f70ff55e3b8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627325649342,
+        "stop" : 1627325670800,
+        "duration" : 21458
+      }
+    }, {
+      "uid" : "7e73d81aa9f48f9f",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627325344281,
+        "stop" : 1627325365234,
+        "duration" : 20953
+      }
+    }, {
+      "uid" : "5d5b40fd4a6908cf",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627314076102,
+        "stop" : 1627314098440,
+        "duration" : 22338
+      }
+    }, {
+      "uid" : "755f9010046b137",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627313935830,
+        "stop" : 1627313955551,
+        "duration" : 19721
+      }
+    }, {
+      "uid" : "1339abb12b130614",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627309687529,
+        "stop" : 1627309692665,
+        "duration" : 5136
+      }
+    }, {
+      "uid" : "ab1f0e126840d2c1",
+      "status" : "broken",
+      "statusDetails" : "Failed to convert CLICK_ON_ELEMENT_WITH_THE_NAME for Enum org.vividus.visual.model.VisualActionType",
+      "time" : {
+        "start" : 1627309636698,
+        "stop" : 1627309641108,
+        "duration" : 4410
+      }
+    } ]
+  },
+  "[batch: Mentoring Tests][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/MentoringStory.story][scenario: Task 1 - SecondPart Work with API-0]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "f68e80bc3291d9ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627817673509,
+        "stop" : 1627817674500,
+        "duration" : 991
+      }
+    }, {
+      "uid" : "64e9ebd270ede94d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627817213155,
+        "stop" : 1627817214149,
+        "duration" : 994
+      }
+    }, {
+      "uid" : "99c8e2222cf86517",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627817094695,
+        "stop" : 1627817095553,
+        "duration" : 858
+      }
+    }, {
+      "uid" : "adf7aa519e6ba72a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627815777028,
+        "stop" : 1627815778065,
+        "duration" : 1037
+      }
+    }, {
+      "uid" : "a8052f3459a67bbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627813071929,
+        "stop" : 1627813072939,
+        "duration" : 1010
+      }
+    }, {
+      "uid" : "694286d5791a986d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627812493734,
+        "stop" : 1627812494767,
+        "duration" : 1033
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/Mentoring.story][scenario: -0]" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e086a3c0ee79d34f",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '(//span[text()=\"Account\"])[1]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627314794448,
+        "stop" : 1627314812119,
+        "duration" : 17671
+      }
+    }, {
+      "uid" : "d19d8610c5e31dd8",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '//input[@id=\"global-search-input\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) An element with attributes XPath: '//input[@id=\"global-search-input\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n3) An element with attributes XPath: '//button[@id=\"global-search-submit\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n4) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627306918981,
+        "stop" : 1627306941654,
+        "duration" : 22673
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/HealthCheck.story][scenario: Verify page title-0]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "30061eca1805fa49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627230129571,
+        "stop" : 1627230129589,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "ad64adcd430bb656",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627230095377,
+        "stop" : 1627230095388,
+        "duration" : 11
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/Mentoring.story][scenario: Verify search-0]" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "224d5cf1df361838",
+      "status" : "failed",
+      "statusDetails" : "1) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627314852506,
+        "stop" : 1627314864000,
+        "duration" : 11494
+      }
+    }, {
+      "uid" : "dc60b21a5c1678c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627307906103,
+        "stop" : 1627307914765,
+        "duration" : 8662
+      }
+    }, {
+      "uid" : "79a733fe94b08cf6",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627306895405,
+        "stop" : 1627306895465,
+        "duration" : 60
+      }
+    }, {
+      "uid" : "17456de4b44f4aa4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627306788312,
+        "stop" : 1627306797218,
+        "duration" : 8906
+      }
+    }, {
+      "uid" : "70d243fdc36137f0",
+      "status" : "failed",
+      "statusDetails" : "1) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627306591784,
+        "stop" : 1627306605168,
+        "duration" : 13384
+      }
+    }, {
+      "uid" : "d38abaf28a2e9945",
+      "status" : "failed",
+      "statusDetails" : "1) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627306145930,
+        "stop" : 1627306159251,
+        "duration" : 13321
+      }
+    } ]
+  },
+  "[batch: Mentoring Tests][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/MentoringStory.story][scenario: Task 1 - Find info on learn.epam.com using Examples table [1]-0]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "bf4a9e79650cec50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627817661777,
+        "stop" : 1627817669567,
+        "duration" : 7790
+      }
+    }, {
+      "uid" : "eb7c8ee1f2a878fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627817204325,
+        "stop" : 1627817209318,
+        "duration" : 4993
+      }
+    }, {
+      "uid" : "ab1883738e725bdc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627817084994,
+        "stop" : 1627817090856,
+        "duration" : 5862
+      }
+    }, {
+      "uid" : "f62d8a8dc4a31a8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627815767357,
+        "stop" : 1627815773156,
+        "duration" : 5799
+      }
+    }, {
+      "uid" : "6560cffb7ab0c174",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627813060902,
+        "stop" : 1627813067943,
+        "duration" : 7041
+      }
+    }, {
+      "uid" : "c0c3634e5032b298",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627812479975,
+        "stop" : 1627812489147,
+        "duration" : 9172
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/Mentoring.story][scenario: Verify registration form with incorrect password-0]" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4283a860808c5bee",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '(//span[text()=\"Account\"])[1]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) An element with attributes XPath: '//div[text()='Sign In']'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n3) An element with attributes XPath: '//button[@data-tl-id=\"signin-sign-up-btn\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n4) An element with attributes XPath: '//input[@id=\"first-name-su\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n5) An element with attributes XPath: '//input[@id=\"last-name-su\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n6) An element with attributes XPath: '//input[@id=\"email-su\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n7) An element with attributes XPath: '//input[@id=\"password-su\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n8) The number of found elements [Expected: number of elements is a value equal to <3> Actual: <0>]",
+      "time" : {
+        "start" : 1627238123664,
+        "stop" : 1627238146959,
+        "duration" : 23295
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/Mentoring.story][scenario: Visual test of context element-0]" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 8
+    },
+    "items" : [ {
+      "uid" : "67cfe4f3f418a4d6",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '(//span[text()=\"Account\"])[1]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) An element with attributes XPath: '//div[text()='Sign In']'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+      "time" : {
+        "start" : 1627232591073,
+        "stop" : 1627232598228,
+        "duration" : 7155
+      }
+    }, {
+      "uid" : "24f23a8eb9d7837c",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '(//span[text()=\"Account\"])[1]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) An element with attributes XPath: '//div[text()='Sign In']'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+      "time" : {
+        "start" : 1627232084389,
+        "stop" : 1627232091663,
+        "duration" : 7274
+      }
+    }, {
+      "uid" : "bb8fb63df871fc8d",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '(//span[text()=\"Account\"])[1]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) An element with attributes XPath: '//div[text()='Sign In']'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+      "time" : {
+        "start" : 1627232048314,
+        "stop" : 1627232055474,
+        "duration" : 7160
+      }
+    }, {
+      "uid" : "9a0ebbb32c629961",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627231615578,
+        "stop" : 1627231624459,
+        "duration" : 8881
+      }
+    }, {
+      "uid" : "30205bc5551306c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627231374534,
+        "stop" : 1627231382309,
+        "duration" : 7775
+      }
+    }, {
+      "uid" : "64514bd1a22a8805",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627231264738,
+        "stop" : 1627231270936,
+        "duration" : 6198
+      }
+    }, {
+      "uid" : "e59402a099311935",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627231186443,
+        "stop" : 1627231186502,
+        "duration" : 59
+      }
+    }, {
+      "uid" : "d01bda5a937f46ea",
+      "status" : "skipped",
+      "statusDetails" : "Step is commented",
+      "time" : {
+        "start" : 1627230926306,
+        "stop" : 1627230933839,
+        "duration" : 7533
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/output/resources/main/story/web/HealthCheck.story][scenario: Open application under test-0]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "679b636d24a281e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627229995564,
+        "stop" : 1627230017246,
+        "duration" : 21682
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/Mentoring.story][scenario: Navigate to watchlist-0]" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 4
+    },
+    "items" : [ {
+      "uid" : "c75a4853a5361840",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627371657888,
+        "stop" : 1627371683151,
+        "duration" : 25263
+      }
+    }, {
+      "uid" : "bd01cf7041565a0f",
+      "status" : "skipped",
+      "statusDetails" : "Step is commented",
+      "time" : {
+        "start" : 1627326982170,
+        "stop" : 1627327006990,
+        "duration" : 24820
+      }
+    }, {
+      "uid" : "2fb575b0d0fec8f2",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '//div[text()=\"Watchlist\"]'; Visibility: VISIBLE; [Expected: number of elements is a value equal to <1> Actual: <13>]\r\n2) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627326658351,
+        "stop" : 1627326692209,
+        "duration" : 33858
+      }
+    }, {
+      "uid" : "7072795c0b2210ee",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627314660838,
+        "stop" : 1627314683924,
+        "duration" : 23086
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/Mentoring.story][scenario: Sort list in \"Your watchlist\" and export it-0]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 16,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 23
+    },
+    "items" : [ {
+      "uid" : "cf7b3978c7eaced7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627371569904,
+        "stop" : 1627371601598,
+        "duration" : 31694
+      }
+    }, {
+      "uid" : "dca7121c948c22d8",
+      "status" : "skipped",
+      "statusDetails" : "Step is commented",
+      "time" : {
+        "start" : 1627369327018,
+        "stop" : 1627369367472,
+        "duration" : 40454
+      }
+    }, {
+      "uid" : "652d74a9e9d96150",
+      "status" : "skipped",
+      "statusDetails" : "Step is commented",
+      "time" : {
+        "start" : 1627368938381,
+        "stop" : 1627368972043,
+        "duration" : 33662
+      }
+    }, {
+      "uid" : "1bf08057511728ba",
+      "status" : "broken",
+      "statusDetails" : "Failed to convert ALPHABETICAL for Enum org.vividus.bdd.steps.ui.model.StringSortingOrder",
+      "time" : {
+        "start" : 1627368570402,
+        "stop" : 1627368605305,
+        "duration" : 34903
+      }
+    }, {
+      "uid" : "22f7c97fdf52ce5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627368328894,
+        "stop" : 1627368357145,
+        "duration" : 28251
+      }
+    }, {
+      "uid" : "6f964abd0c286741",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627368162429,
+        "stop" : 1627368188878,
+        "duration" : 26449
+      }
+    }, {
+      "uid" : "b0e6af722d38929f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627367953327,
+        "stop" : 1627367978444,
+        "duration" : 25117
+      }
+    }, {
+      "uid" : "25bdd285ccd6e57e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627367860032,
+        "stop" : 1627367887219,
+        "duration" : 27187
+      }
+    }, {
+      "uid" : "420e164eb598ce71",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627367686560,
+        "stop" : 1627367711531,
+        "duration" : 24971
+      }
+    }, {
+      "uid" : "880855e07d57fe81",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627367548317,
+        "stop" : 1627367573719,
+        "duration" : 25402
+      }
+    }, {
+      "uid" : "612cd1b47141f21d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627367413438,
+        "stop" : 1627367438439,
+        "duration" : 25001
+      }
+    }, {
+      "uid" : "7b89bbd0e848c0c2",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627328258460,
+        "stop" : 1627328282815,
+        "duration" : 24355
+      }
+    }, {
+      "uid" : "ae3a51d1af7aad44",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627328183526,
+        "stop" : 1627328208853,
+        "duration" : 25327
+      }
+    }, {
+      "uid" : "1b7273cf9ddf85f2",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627328029435,
+        "stop" : 1627328057720,
+        "duration" : 28285
+      }
+    }, {
+      "uid" : "8b902ce802535359",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627327955451,
+        "stop" : 1627327980313,
+        "duration" : 24862
+      }
+    }, {
+      "uid" : "e5ad2f51ace0b8c7",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627327844876,
+        "stop" : 1627327869260,
+        "duration" : 24384
+      }
+    }, {
+      "uid" : "293e4e775b7b24ff",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627327800930,
+        "stop" : 1627327826611,
+        "duration" : 25681
+      }
+    }, {
+      "uid" : "3868306bdd77dd25",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627327721859,
+        "stop" : 1627327748492,
+        "duration" : 26633
+      }
+    }, {
+      "uid" : "8dedd7c0bcba3f71",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627327659982,
+        "stop" : 1627327685208,
+        "duration" : 25226
+      }
+    }, {
+      "uid" : "442e1282f9e17980",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627327461390,
+        "stop" : 1627327487140,
+        "duration" : 25750
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/Mentoring.story][scenario: Verify search if the movie doesn't exist-0]" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 2,
+      "skipped" : 2,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "e95e154e1cabc724",
+      "status" : "skipped",
+      "statusDetails" : "Step is commented",
+      "time" : {
+        "start" : 1627324115894,
+        "stop" : 1627324125845,
+        "duration" : 9951
+      }
+    }, {
+      "uid" : "6eab8f6fbc2b4d19",
+      "status" : "skipped",
+      "statusDetails" : "Step is commented",
+      "time" : {
+        "start" : 1627323992907,
+        "stop" : 1627324002050,
+        "duration" : 9143
+      }
+    }, {
+      "uid" : "25bcfc3bcd9f3fbe",
+      "status" : "failed",
+      "statusDetails" : "1) Wait with timeout of 1 minute. Condition: visibility of element with search attributes: XPath: '//h1[text()=\"No results found for \"]'; Visibility: VISIBLE;. Error: Expected condition failed: waiting for visibility of element with search attributes: XPath: '//h1[text()=\"No results found for \"]'; Visibility: VISIBLE; (tried for 60 second(s) with 2000 milliseconds interval)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: driver.version: unknown\r\n2) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627323886791,
+        "stop" : 1627323960200,
+        "duration" : 73409
+      }
+    }, {
+      "uid" : "ba71f6fea9c8a217",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.107)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:52059}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 324da5687d1c56fe1f005fddc1eb7163\n*** Element info: {Using=xpath, value=//h1[text()[normalize-space()=\"No results found for \"]]}",
+      "time" : {
+        "start" : 1627323732822,
+        "stop" : 1627323760154,
+        "duration" : 27332
+      }
+    }, {
+      "uid" : "455899c582755217",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.107)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.43 (8c61b7e2989f2..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54855}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 19b7106d48d3cc092978ccab71f0b67a\n*** Element info: {Using=xpath, value=//h1[text()[normalize-space()=\"No results found for \"]]}",
+      "time" : {
+        "start" : 1627323577276,
+        "stop" : 1627323625009,
+        "duration" : 47733
+      }
+    }, {
+      "uid" : "d82731fc84c86783",
+      "status" : "failed",
+      "statusDetails" : "1) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627323415474,
+        "stop" : 1627323428257,
+        "duration" : 12783
+      }
+    }, {
+      "uid" : "e378605cc3faef17",
+      "status" : "failed",
+      "statusDetails" : "1) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627314986032,
+        "stop" : 1627314997104,
+        "duration" : 11072
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/output/resources/main/story/web/VisualTests.story][scenario: Visual test of context element-0]" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b92c5acbb5314a6f",
+      "status" : "failed",
+      "statusDetails" : "1) Visual check passed [The condition is false]",
+      "time" : {
+        "start" : 1627229995564,
+        "stop" : 1627230004539,
+        "duration" : 8975
+      }
+    } ]
+  },
+  "[batch: Mentoring Tests][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/MentoringStory.story][scenario: Task 2-0]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 14,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 23
+    },
+    "items" : [ {
+      "uid" : "cc0b5f9163dcbbc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627817675336,
+        "stop" : 1627817688740,
+        "duration" : 13404
+      }
+    }, {
+      "uid" : "397423d012e047de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627815779137,
+        "stop" : 1627815793073,
+        "duration" : 13936
+      }
+    }, {
+      "uid" : "bfde0e2bf03dea08",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.107)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 5e7a671bdecd98397f3d5ffa1d3d7600\n*** Element info: {Using=xpath, value=//div[contains(normalize-space(text()),'Summary')]}",
+      "time" : {
+        "start" : 1627815200682,
+        "stop" : 1627815253903,
+        "duration" : 53221
+      }
+    }, {
+      "uid" : "daf6442bf5ed0e17",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.107)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56083}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 2412d407057208e7e388b229638641e3\n*** Element info: {Using=xpath, value=//div[contains(normalize-space(text()),'Summary')]}",
+      "time" : {
+        "start" : 1627815123184,
+        "stop" : 1627815164611,
+        "duration" : 41427
+      }
+    }, {
+      "uid" : "6a719a950b8b2bf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627815064288,
+        "stop" : 1627815071473,
+        "duration" : 7185
+      }
+    }, {
+      "uid" : "c98198d8c32d4296",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627815035149,
+        "stop" : 1627815041441,
+        "duration" : 6292
+      }
+    }, {
+      "uid" : "2a1120726c273e72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627814980173,
+        "stop" : 1627814985270,
+        "duration" : 5097
+      }
+    }, {
+      "uid" : "e26ff5f3541aec8d",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:49279}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6b73814abf599e261827fac9b30b1e17",
+      "time" : {
+        "start" : 1627814914660,
+        "stop" : 1627814920367,
+        "duration" : 5707
+      }
+    }, {
+      "uid" : "560da76156b6f236",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54650}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a22710a2f631c868504e8a1c4682d9c9",
+      "time" : {
+        "start" : 1627814804915,
+        "stop" : 1627814810988,
+        "duration" : 6073
+      }
+    }, {
+      "uid" : "7e26602c63fbb67",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:64158}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0f8e00b1766e82b2e79c23d6ec09f026",
+      "time" : {
+        "start" : 1627814720166,
+        "stop" : 1627814726386,
+        "duration" : 6220
+      }
+    }, {
+      "uid" : "4d67a44bca9e0daf",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.107)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0eae5d540da95f6f870e8cd20b78066e\n*** Element info: {Using=xpath, value=//div[contains(normalize-space(text()),'Summary')]}",
+      "time" : {
+        "start" : 1627814673765,
+        "stop" : 1627814699939,
+        "duration" : 26174
+      }
+    }, {
+      "uid" : "c93dd75b3b117903",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:55481}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b41abd63127c6eb40069d55bd89474c5",
+      "time" : {
+        "start" : 1627814537866,
+        "stop" : 1627814544760,
+        "duration" : 6894
+      }
+    }, {
+      "uid" : "2cea1392c66b1e93",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:60726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 817185e67c9dc2b52a2f0bc5506d11a3",
+      "time" : {
+        "start" : 1627814392515,
+        "stop" : 1627814399063,
+        "duration" : 6548
+      }
+    }, {
+      "uid" : "3be492835d5f6dc4",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:59197}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 304b4b1c49afc5b16c409f0e394a1cf2",
+      "time" : {
+        "start" : 1627814319578,
+        "stop" : 1627814357627,
+        "duration" : 38049
+      }
+    }, {
+      "uid" : "afbac93c0361dff7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627814251135,
+        "stop" : 1627814296908,
+        "duration" : 45773
+      }
+    }, {
+      "uid" : "cc84c5ec152c1781",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.107)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:54314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c50f9270f99891fd9b7c1d541219df45\n*** Element info: {Using=xpath, value=//div[contains(normalize-space(text()),'Summary')]}",
+      "time" : {
+        "start" : 1627814142904,
+        "stop" : 1627814213615,
+        "duration" : 70711
+      }
+    }, {
+      "uid" : "2d37b92320eeec44",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.107)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 76c86196725387c6cb5f398401744b68\n*** Element info: {Using=xpath, value=//div[contains(normalize-space(text()),'Summary')]}",
+      "time" : {
+        "start" : 1627814102587,
+        "stop" : 1627814132922,
+        "duration" : 30335
+      }
+    }, {
+      "uid" : "3a13512ce3cdbc3e",
+      "status" : "broken",
+      "statusDetails" : "stale element reference: element is not attached to the page document\n  (Session info: chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:60444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: da81a839180332f868c7495e58ee3547",
+      "time" : {
+        "start" : 1627813989307,
+        "stop" : 1627813995970,
+        "duration" : 6663
+      }
+    }, {
+      "uid" : "a7bd2fe678484b7a",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=92.0.4515.107)\nBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'\nSystem info: host: 'EPBYGROW005C', ip: '10.0.6.133', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\ALIONA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:63763}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b611015e77bb80000ba47e5786fe09e5\n*** Element info: {Using=xpath, value=//div[contains(normalize-space(text()),'Summary')]}",
+      "time" : {
+        "start" : 1627813942206,
+        "stop" : 1627813972133,
+        "duration" : 29927
+      }
+    }, {
+      "uid" : "3ea496d326bfe098",
+      "status" : "broken",
+      "statusDetails" : "Search context is null, please check is browser session started",
+      "time" : {
+        "start" : 1627813733034,
+        "stop" : 1627813741016,
+        "duration" : 7982
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/Mentoring.story][scenario: Verify registration form-0]" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "3a8f460ecd206043",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627237753178,
+        "stop" : 1627237753222,
+        "duration" : 44
+      }
+    }, {
+      "uid" : "ac6766af1e07f8e7",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627237663731,
+        "stop" : 1627237663765,
+        "duration" : 34
+      }
+    }, {
+      "uid" : "3f4587c33767ab75",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627237574734,
+        "stop" : 1627237574769,
+        "duration" : 35
+      }
+    }, {
+      "uid" : "1fd5debca8e68567",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '(//span[text()=\"Account\"])[1]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627236750960,
+        "stop" : 1627236768684,
+        "duration" : 17724
+      }
+    }, {
+      "uid" : "f293bfabfcab951c",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '(//span[text()=\"Account\"])[1]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627235521175,
+        "stop" : 1627235536808,
+        "duration" : 15633
+      }
+    } ]
+  },
+  "[batch: Mentoring Tests][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/MentoringStory.story][scenario: Task 1 - ThirdPart Work with API-0]" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "e41c03301bc8beee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627817674504,
+        "stop" : 1627817675334,
+        "duration" : 830
+      }
+    }, {
+      "uid" : "a0012dbd21417e75",
+      "status" : "failed",
+      "statusDetails" : "1) Value '422' matches pattern '20\\d+' [Expected: a string matching the pattern '20\\d+' Actual: was \"422\"]",
+      "time" : {
+        "start" : 1627817214153,
+        "stop" : 1627817215055,
+        "duration" : 902
+      }
+    }, {
+      "uid" : "2f51151cabaee3ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627817095557,
+        "stop" : 1627817096511,
+        "duration" : 954
+      }
+    }, {
+      "uid" : "965f4f2168db2450",
+      "status" : "failed",
+      "statusDetails" : "1) Value '422' matches pattern '20\\d+' [Expected: a string matching the pattern '20\\d+' Actual: was \"422\"]",
+      "time" : {
+        "start" : 1627815778070,
+        "stop" : 1627815779133,
+        "duration" : 1063
+      }
+    }, {
+      "uid" : "1f61941c7afdba45",
+      "status" : "failed",
+      "statusDetails" : "1) Value '422' matches pattern '20\\d+' [Expected: a string matching the pattern '20\\d+' Actual: was \"422\"]",
+      "time" : {
+        "start" : 1627813072944,
+        "stop" : 1627813073959,
+        "duration" : 1015
+      }
+    }, {
+      "uid" : "2036db62c07dc8ac",
+      "status" : "failed",
+      "statusDetails" : "1) Value '422' matches pattern '20\\d+' [Expected: a string matching the pattern '20\\d+' Actual: was \"422\"]",
+      "time" : {
+        "start" : 1627812494772,
+        "stop" : 1627812495903,
+        "duration" : 1131
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/Mentoring.story][scenario: Add movie to watchlist if the movie already exists in the watchlist-0]" : {
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 6,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 11
+    },
+    "items" : [ {
+      "uid" : "a0b2b573ff68daa8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627371730786,
+        "stop" : 1627371765223,
+        "duration" : 34437
+      }
+    }, {
+      "uid" : "b1a9697a35577ef8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627326558836,
+        "stop" : 1627326584446,
+        "duration" : 25610
+      }
+    }, {
+      "uid" : "3dbfaf95c2e138ad",
+      "status" : "failed",
+      "statusDetails" : "1) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627326449677,
+        "stop" : 1627326479102,
+        "duration" : 29425
+      }
+    }, {
+      "uid" : "f5cc33d1413e887",
+      "status" : "failed",
+      "statusDetails" : "1) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627326292853,
+        "stop" : 1627326321039,
+        "duration" : 28186
+      }
+    }, {
+      "uid" : "ba622da71cd2e637",
+      "status" : "skipped",
+      "statusDetails" : "Step is commented",
+      "time" : {
+        "start" : 1627313455150,
+        "stop" : 1627313476085,
+        "duration" : 20935
+      }
+    }, {
+      "uid" : "979134373fc962d4",
+      "status" : "skipped",
+      "statusDetails" : "Step is commented",
+      "time" : {
+        "start" : 1627313315371,
+        "stop" : 1627313336791,
+        "duration" : 21420
+      }
+    }, {
+      "uid" : "39bb4fd37f5fef43",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627313109161,
+        "stop" : 1627313131310,
+        "duration" : 22149
+      }
+    }, {
+      "uid" : "303b19ac131b6109",
+      "status" : "skipped",
+      "statusDetails" : "Step is commented",
+      "time" : {
+        "start" : 1627313041240,
+        "stop" : 1627313061587,
+        "duration" : 20347
+      }
+    }, {
+      "uid" : "9a0640ba2da392c7",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627312930051,
+        "stop" : 1627312954063,
+        "duration" : 24012
+      }
+    }, {
+      "uid" : "f0d341705755d830",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627312850491,
+        "stop" : 1627312871680,
+        "duration" : 21189
+      }
+    }, {
+      "uid" : "236956c49a2c55e1",
+      "status" : "failed",
+      "statusDetails" : "1) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627312318814,
+        "stop" : 1627312346867,
+        "duration" : 28053
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/VisualTests.story][scenario: Visual test of context element-0]" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2b4f66b822ef89a",
+      "status" : "failed",
+      "statusDetails" : "1) Visual check passed [The condition is false]",
+      "time" : {
+        "start" : 1627230124736,
+        "stop" : 1627230131066,
+        "duration" : 6330
+      }
+    }, {
+      "uid" : "d784c0fac7f2305b",
+      "status" : "failed",
+      "statusDetails" : "1) Visual check passed [The condition is false]",
+      "time" : {
+        "start" : 1627230090318,
+        "stop" : 1627230096321,
+        "duration" : 6003
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/output/resources/main/story/web/HealthCheck.story][scenario: Verify page title-0]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "618e0a3754953aee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627230017251,
+        "stop" : 1627230017258,
+        "duration" : 7
+      }
+    } ]
+  },
+  "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/Mentoring.story][scenario: Add movie to watchlist-0]" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 1,
+      "skipped" : 5,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 13
+    },
+    "items" : [ {
+      "uid" : "88e309b65c1a02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627373614165,
+        "stop" : 1627373640305,
+        "duration" : 26140
+      }
+    }, {
+      "uid" : "2c78d2cf9f7760fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627326184207,
+        "stop" : 1627326206859,
+        "duration" : 22652
+      }
+    }, {
+      "uid" : "9e82c7c1a0fc2f75",
+      "status" : "failed",
+      "statusDetails" : "1) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627326021443,
+        "stop" : 1627326052258,
+        "duration" : 30815
+      }
+    }, {
+      "uid" : "10f30755056a4fb1",
+      "status" : "broken",
+      "statusDetails" : "Invalid locator format. Expected matches [(?:By\\.)?([a-zA-Z]+)\\((.+?)\\)(:(.*))?] Actual: [By.xpath(//button[@data-testid=\"tm-box-wl-button\"]]",
+      "time" : {
+        "start" : 1627325939882,
+        "stop" : 1627325961715,
+        "duration" : 21833
+      }
+    }, {
+      "uid" : "c3b68d85f450f5ac",
+      "status" : "failed",
+      "statusDetails" : "1) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627325758711,
+        "stop" : 1627325788144,
+        "duration" : 29433
+      }
+    }, {
+      "uid" : "5d413c1c0be2abdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627312114589,
+        "stop" : 1627312140965,
+        "duration" : 26376
+      }
+    }, {
+      "uid" : "789b749b5435b617",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '//div[text()=\"Add to Watchlist\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]\r\n2) The number of found elements [Expected: number of elements is a value equal to <1> Actual: <0>]",
+      "time" : {
+        "start" : 1627311758665,
+        "stop" : 1627311791696,
+        "duration" : 33031
+      }
+    }, {
+      "uid" : "1a8478784a4f7f0c",
+      "status" : "failed",
+      "statusDetails" : "1) An element with attributes XPath: '//div[text()=\"Add to Watchlist\"]'; Visibility: VISIBLE; [Expected: exists Actual: does not exist]",
+      "time" : {
+        "start" : 1627311554251,
+        "stop" : 1627311583986,
+        "duration" : 29735
+      }
+    }, {
+      "uid" : "663676728974513f",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627311412086,
+        "stop" : 1627311434226,
+        "duration" : 22140
+      }
+    }, {
+      "uid" : "fc076a8e0e0d86ff",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627311324757,
+        "stop" : 1627311329834,
+        "duration" : 5077
+      }
+    }, {
+      "uid" : "3521f4e3312fb7d1",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627311296167,
+        "stop" : 1627311301253,
+        "duration" : 5086
+      }
+    }, {
+      "uid" : "8cf2e6d34c1be82d",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627311241197,
+        "stop" : 1627311246059,
+        "duration" : 4862
+      }
+    }, {
+      "uid" : "a47071e7edd7e895",
+      "status" : "skipped",
+      "statusDetails" : "Step is not implemented",
+      "time" : {
+        "start" : 1627311182286,
+        "stop" : 1627311188783,
+        "duration" : 6497
+      }
+    } ]
+  }
+}
