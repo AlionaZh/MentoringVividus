@@ -9,8 +9,8 @@
     "knownIssue" : 0
   },
   "SCENARIO" : {
-    "total" : 2,
-    "passed" : 1,
+    "total" : 7,
+    "passed" : 6,
     "failed" : 1,
     "broken" : 0,
     "skipped" : 0,
@@ -18,17 +18,17 @@
     "knownIssue" : 0
   },
   "STEP" : {
-    "total" : 2,
-    "passed" : 1,
+    "total" : 113,
+    "passed" : 104,
     "failed" : 1,
     "broken" : 0,
-    "skipped" : 0,
+    "skipped" : 8,
     "pending" : 0,
     "knownIssue" : 0
   },
   "GIVEN_STORY" : {
-    "total" : 0,
-    "passed" : 0,
+    "total" : 2,
+    "passed" : 2,
     "failed" : 0,
     "broken" : 0,
     "skipped" : 0,

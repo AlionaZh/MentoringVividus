@@ -204,11 +204,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "58abe9647c8bef9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627916739247,
+        "stop" : 1627916741874,
+        "duration" : 2627
+      }
+    }, {
       "uid" : "3ce5dec7789140ac",
       "status" : "passed",
       "time" : {
@@ -358,16 +366,43 @@
       }
     } ]
   },
+  "[batch: Mentoring Tests][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/HealthCheck.story][scenario: Open application under test-0]" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "855813c0f1c6419a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627818370266,
+        "stop" : 1627818376584,
+        "duration" : 6318
+      }
+    } ]
+  },
   "[batch: Mentoring Tests][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/MentoringStory.story][scenario: Task 1 - SecondPart Work with API-0]" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "f7f256dcc42078d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627916741878,
+        "stop" : 1627916742742,
+        "duration" : 864
+      }
+    }, {
       "uid" : "f68e80bc3291d9ac",
       "status" : "passed",
       "time" : {
@@ -541,11 +576,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "3341bfb664567b2b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627916731892,
+        "stop" : 1627916739228,
+        "duration" : 7336
+      }
+    }, {
       "uid" : "bf4a9e79650cec50",
       "status" : "passed",
       "time" : {
@@ -1045,11 +1088,19 @@
       "failed" : 0,
       "broken" : 14,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 23
+      "total" : 24
     },
     "items" : [ {
+      "uid" : "c425be8b370de7cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627916743690,
+        "stop" : 1627916757283,
+        "duration" : 13593
+      }
+    }, {
       "uid" : "cc0b5f9163dcbbc6",
       "status" : "passed",
       "time" : {
@@ -1214,15 +1265,6 @@
         "stop" : 1627813972133,
         "duration" : 29927
       }
-    }, {
-      "uid" : "3ea496d326bfe098",
-      "status" : "broken",
-      "statusDetails" : "Search context is null, please check is browser session started",
-      "time" : {
-        "start" : 1627813733034,
-        "stop" : 1627813741016,
-        "duration" : 7982
-      }
     } ]
   },
   "[batch: batch-1][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/Mentoring.story][scenario: Verify registration form-0]" : {
@@ -1286,11 +1328,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 6
+      "total" : 7
     },
     "items" : [ {
+      "uid" : "318b7f7f91e5d429",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627916742747,
+        "stop" : 1627916743687,
+        "duration" : 940
+      }
+    }, {
       "uid" : "e41c03301bc8beee",
       "status" : "passed",
       "time" : {
@@ -1497,6 +1547,26 @@
         "start" : 1627230017251,
         "stop" : 1627230017258,
         "duration" : 7
+      }
+    } ]
+  },
+  "[batch: Mentoring Tests][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/HealthCheck.story][scenario: Verify page title-0]" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7d58de55c345e27",
+      "status" : "failed",
+      "statusDetails" : "1) Page title [Expected: \"Vividus Test Site\" Actual: was \"Trello\"]",
+      "time" : {
+        "start" : 1627818376598,
+        "stop" : 1627818383238,
+        "duration" : 6640
       }
     } ]
   },

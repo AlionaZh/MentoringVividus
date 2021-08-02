@@ -1,6 +1,6 @@
 #org.jbehave.core.embedder.StoryManager
-#Sun Aug 01 14:46:23 MSK 2021
-file\:/C\:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/HealthCheck.story=13000
-total=13000
-threadAverage=13000
+#Mon Aug 02 18:07:40 MSK 2021
+total=39000
+threadAverage=39000
 threads=1
+file\:/C\:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/MentoringStory.story=39000

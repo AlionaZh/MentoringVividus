@@ -23,7 +23,7 @@
   "values" : [ "story/web" ],
   "name" : "Batch 1 Location"
 }, {
-  "values" : [ "HealthCheck.story" ],
+  "values" : [ "MentoringStory.story" ],
   "name" : "Batch 1 Include Patterns"
 }, {
   "values" : [ "1" ],
@@ -32,6 +32,6 @@
   "values" : [ "groovy: (!layout || layout.contains('desktop')) && !skip && (true)" ],
   "name" : "Global Meta Filters"
 }, {
-  "values" : [ "https://trello.com/" ],
+  "values" : [ "https://learn.epam.com/" ],
   "name" : "Main Application Page"
 } ]

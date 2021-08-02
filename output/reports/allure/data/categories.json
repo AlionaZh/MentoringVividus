@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "1) Page title [Expected: \"Vividus Test Site\" Actual: was \"Trello\"]",
+      "name" : "1) Visual check passed [The condition is false]",
       "children" : [ {
-        "name" : "Verify page title",
-        "uid" : "7d58de55c345e27",
-        "parentUid" : "62d5782ea7dc083680c1ca5f2a5e77b5",
+        "name" : "Task 3",
+        "uid" : "d7450143c271de1d",
+        "parentUid" : "1b64bbc92ce04eeaa72d51cff818f16d",
         "status" : "failed",
         "time" : {
-          "start" : 1627818376598,
-          "stop" : 1627818383238,
-          "duration" : 6640
+          "start" : 1627916844757,
+          "stop" : 1627916860150,
+          "duration" : 15393
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "62d5782ea7dc083680c1ca5f2a5e77b5"
+      "uid" : "1b64bbc92ce04eeaa72d51cff818f16d"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

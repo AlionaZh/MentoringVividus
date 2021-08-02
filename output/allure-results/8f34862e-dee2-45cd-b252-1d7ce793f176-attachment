@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" ng-app="allure">
+<head>
+    <meta charset="utf-8">
+    <title>API message</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../styles.css"/>
+    <link rel="stylesheet" href="../../webjars/bootstrap/3.3.6/css/bootstrap.min.css"/>
+</head>
+<body>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-break: normal;
+        }
+        a[data-toggle='collapse'] {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+        }
+        .toggleable:hover {
+             cursor: pointer;
+        }
+        .panel-heading a:after {
+            font-family:'FontAwesome';
+            content:"\F107";
+            float: right;
+            color: grey;
+        }
+        .panel-heading a.collapsed:after {
+            content:"\F105";
+        }
+        
+    </style>
+
+    <div class="panel-group" id="accordion">
+
+        
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4 class="panel-title toggleable">
+                    <a data-toggle="collapse" data-target="#collapse-header" href="#collapse-header" class="collapsed">Headers</a>
+                </h4>
+            </div>
+            <div id="collapse-header" class="panel-collapse collapse">
+                <table class="table">
+                    <tbody>
+                            <tr>
+                                <td>
+                                    Host
+                                </td>
+                                <td>
+                                    catfact.ninja
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Connection
+                                </td>
+                                <td>
+                                    Keep-Alive
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    User-Agent
+                                </td>
+                                <td>
+                                    Apache-HttpClient/4.5.13 (Java/16.0.2)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Accept-Encoding
+                                </td>
+                                <td>
+                                    gzip,deflate
+                                </td>
+                            </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="../../webjars/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="../../webjars/highlight.js/9.12.0/highlight.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("code[id='pretty-code']").each(function(i, e) {
+                if(e.className.includes("json")){
+                    var text = $(this).text();
+                    var pretty =  JSON.stringify(JSON.parse(text), null, 2);
+                    $(this).text(pretty);
+                }
+                hljs.highlightBlock(e);
+            });
+        });
+    </script>
+</body>
+</html>

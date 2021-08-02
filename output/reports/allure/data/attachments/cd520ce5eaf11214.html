@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en" ng-app="allure">
+<head>
+    <meta charset="utf-8">
+    <title>API message</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../styles.css"/>
+    <link rel="stylesheet" href="../../webjars/bootstrap/3.3.6/css/bootstrap.min.css"/>
+</head>
+<body>
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-break: normal;
+        }
+        a[data-toggle='collapse'] {
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+        }
+        .toggleable:hover {
+             cursor: pointer;
+        }
+        .panel-heading a:after {
+            font-family:'FontAwesome';
+            content:"\F107";
+            float: right;
+            color: grey;
+        }
+        .panel-heading a.collapsed:after {
+            content:"\F105";
+        }
+        
+    </style>
+
+    <div class="panel-group" id="accordion">
+
+                    <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4 class="panel-title">Status code: 201</h4>
+                </div>
+            </div>
+
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h4 class="panel-title toggleable">
+                    <a data-toggle="collapse" data-target="#collapse-header" href="#collapse-header" class="collapsed">Headers</a>
+                </h4>
+            </div>
+            <div id="collapse-header" class="panel-collapse collapse">
+                <table class="table">
+                    <tbody>
+                            <tr>
+                                <td>
+                                    Server
+                                </td>
+                                <td>
+                                    nginx
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Date
+                                </td>
+                                <td>
+                                    Mon, 02 Aug 2021 15:07:11 GMT
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Content-Type
+                                </td>
+                                <td>
+                                    application/json; charset=utf-8
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Transfer-Encoding
+                                </td>
+                                <td>
+                                    chunked
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Connection
+                                </td>
+                                <td>
+                                    keep-alive
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    X-Frame-Options
+                                </td>
+                                <td>
+                                    SAMEORIGIN
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    X-XSS-Protection
+                                </td>
+                                <td>
+                                    1; mode=block
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    X-Content-Type-Options
+                                </td>
+                                <td>
+                                    nosniff
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    X-Download-Options
+                                </td>
+                                <td>
+                                    noopen
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    X-Permitted-Cross-Domain-Policies
+                                </td>
+                                <td>
+                                    none
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Referrer-Policy
+                                </td>
+                                <td>
+                                    strict-origin-when-cross-origin
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Location
+                                </td>
+                                <td>
+                                    https://gorest.co.in/public/v1/users/1665
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    ETag
+                                </td>
+                                <td>
+                                    W/"d37c687e0a684083258a01c93d1f01af"
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Cache-Control
+                                </td>
+                                <td>
+                                    max-age=0, private, must-revalidate
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    X-Request-Id
+                                </td>
+                                <td>
+                                    243913a8-bb2d-4b04-a83e-8cb314dfa8ba
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    X-Runtime
+                                </td>
+                                <td>
+                                    0.018196
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Strict-Transport-Security
+                                </td>
+                                <td>
+                                    max-age=63072000; includeSubDomains
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Vary
+                                </td>
+                                <td>
+                                    Origin
+                                </td>
+                            </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4 class="panel-title toggleable">
+                        <a data-toggle="collapse" data-target="#collapse-body" href="#collapse-body" class="collapsed">Body</a>
+                    </h4>
+                </div>
+                <div id="collapse-body" class="panel-collapse collapse in">
+                    <div class="container">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#pretty">Pretty</a></li>
+                            <li><a data-toggle="tab" href="#origin">Original</a></li>
+                        </ul>
+                        <div class="tab-content">
+                             <div id="pretty" class="tab-pane fade  in active">
+                               <pre><code id = "pretty-code" class="json">{&quot;meta&quot;:null,&quot;data&quot;:{&quot;id&quot;:1665,&quot;name&quot;:&quot;TesterAliona&quot;,&quot;email&quot;:&quot;te2stu4ser2@mail.com&quot;,&quot;gender&quot;:&quot;female&quot;,&quot;status&quot;:&quot;active&quot;}}</code></pre>
+                             </div>
+                             <div id="origin" class="tab-pane fade">
+                               <pre><code id = "original-code" class="json">{&quot;meta&quot;:null,&quot;data&quot;:{&quot;id&quot;:1665,&quot;name&quot;:&quot;TesterAliona&quot;,&quot;email&quot;:&quot;te2stu4ser2@mail.com&quot;,&quot;gender&quot;:&quot;female&quot;,&quot;status&quot;:&quot;active&quot;}}</code></pre>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <script src="../../webjars/jquery/2.1.1/jquery.min.js"></script>
+    <script src="../../webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="../../webjars/highlight.js/9.12.0/highlight.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("code[id='pretty-code']").each(function(i, e) {
+                if(e.className.includes("json")){
+                    var text = $(this).text();
+                    var pretty =  JSON.stringify(JSON.parse(text), null, 2);
+                    $(this).text(pretty);
+                }
+                hljs.highlightBlock(e);
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,462 @@
+{
+  "uid" : "440ac4f3b01f0874",
+  "name" : "Task 1 - Find info on learn.epam.com using Examples table [2]",
+  "historyId" : "[batch: Mentoring Tests][stories-chain: file:/C:/Users/Aliona_Zhydzel/Documents/Vividus/vividus-starter/bin/main/story/web/MentoringStory.story][scenario: Task 1 - Find info on learn.epam.com using Examples table [2]-0]",
+  "time" : {
+    "start" : 1627916826681,
+    "stop" : 1627916829241,
+    "duration" : 2560
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the main application page",
+      "time" : {
+        "start" : 1627916826682,
+        "stop" : 1627916828004,
+        "duration" : 1322
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Loading: https://learn.epam.com/\r\n",
+        "time" : {
+          "start" : 1627916826682,
+          "stop" : 1627916826682,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Refreshing the current page\r\n",
+        "time" : {
+          "start" : 1627916827095,
+          "stop" : 1627916827095,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I initialize the ｟SCENARIO｠ variable `SecondRequestText` with value `Testing`",
+      "time" : {
+        "start" : 1627916828004,
+        "stop" : 1627916828005,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Saving a value 'Testing' into the scenario variable 'SecondRequestText'\r\n",
+        "time" : {
+          "start" : 1627916828005,
+          "stop" : 1627916828005,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I wait until element located `By.xpath(//input[@class=\"uui-input\"])` appears",
+      "time" : {
+        "start" : 1627916828006,
+        "stop" : 1627916828052,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Total number of elements found By.xpath: //input[normalize-space(@class)=\"uui-input\"] is 1\r\n",
+        "time" : {
+          "start" : 1627916828020,
+          "stop" : 1627916828020,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Number of visible elements is 1\r\n",
+        "time" : {
+          "start" : 1627916828037,
+          "stop" : 1627916828037,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I click on element located `By.xpath(//input[@class=\"uui-input\"])`",
+      "time" : {
+        "start" : 1627916828052,
+        "stop" : 1627916828966,
+        "duration" : 914
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Total number of elements found By.xpath: //input[normalize-space(@class)=\"uui-input\"] is 1\r\n",
+        "time" : {
+          "start" : 1627916828067,
+          "stop" : 1627916828067,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Number of visible elements is 1\r\n",
+        "time" : {
+          "start" : 1627916828084,
+          "stop" : 1627916828084,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I enter `｟${SecondRequestText}｠` in field located `By.xpath(//input[@class=\"uui-input\"])`",
+      "time" : {
+        "start" : 1627916828966,
+        "stop" : 1627916829057,
+        "duration" : 91
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Total number of elements found By.xpath: //input[normalize-space(@class)=\"uui-input\"] is 1\r\n",
+        "time" : {
+          "start" : 1627916828977,
+          "stop" : 1627916828977,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Number of visible elements is 1\r\n",
+        "time" : {
+          "start" : 1627916828991,
+          "stop" : 1627916828991,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Entering text \"Testing\" in element\r\n",
+        "time" : {
+          "start" : 1627916829020,
+          "stop" : 1627916829020,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I execute sequence of actions:\r\n|type          |argument                                |\r\n|PRESS_KEYS    |ENTER |",
+      "time" : {
+        "start" : 1627916829057,
+        "stop" : 1627916829065,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I wait until element located `By.xpath(//div[contains(text(),'｟Testing｠')])` appears",
+      "time" : {
+        "start" : 1627916829066,
+        "stop" : 1627916829168,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Total number of elements found By.xpath: //div[contains(normalize-space(text()),'Testing')] is 5\r\n",
+        "time" : {
+          "start" : 1627916829080,
+          "stop" : 1627916829080,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Number of visible elements is 5\r\n",
+        "time" : {
+          "start" : 1627916829153,
+          "stop" : 1627916829153,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then number of elements found by `By.xpath(//div[contains(text(),'｟Testing｠')])` is ｟greater than｠ `0`",
+      "time" : {
+        "start" : 1627916829168,
+        "stop" : 1627916829239,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Total number of elements found By.xpath: //div[contains(normalize-space(text()),'Testing')] is 5\r\n",
+        "time" : {
+          "start" : 1627916829178,
+          "stop" : 1627916829178,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Number of visible elements is 5\r\n",
+        "time" : {
+          "start" : 1627916829238,
+          "stop" : 1627916829238,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 22,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Mentoring Tests"
+  }, {
+    "name" : "suite",
+    "value" : "MentoringStory"
+  }, {
+    "name" : "story",
+    "value" : "MentoringStory"
+  }, {
+    "name" : "host",
+    "value" : "EPBYGROW005C"
+  }, {
+    "name" : "thread",
+    "value" : "3332@EPBYGROW005C.batch-1-thread-1(34)"
+  }, {
+    "name" : "framework",
+    "value" : "Vividus"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "ResultText",
+    "value" : "Testing"
+  }, {
+    "name" : "TextForSearch",
+    "value" : "${SecondRequestText}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "58abe9647c8bef9d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627916739247,
+          "stop" : 1627916741874,
+          "duration" : 2627
+        }
+      }, {
+        "uid" : "3ce5dec7789140ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627817669590,
+          "stop" : 1627817673506,
+          "duration" : 3916
+        }
+      }, {
+        "uid" : "d0fda518f35e0ee0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627817209337,
+          "stop" : 1627817213152,
+          "duration" : 3815
+        }
+      }, {
+        "uid" : "647e408fae47f64a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627817090876,
+          "stop" : 1627817094692,
+          "duration" : 3816
+        }
+      }, {
+        "uid" : "3a33bc751bfc0378",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627815773176,
+          "stop" : 1627815777026,
+          "duration" : 3850
+        }
+      }, {
+        "uid" : "98c936f29bd9362a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627813067968,
+          "stop" : 1627813071926,
+          "duration" : 3958
+        }
+      }, {
+        "uid" : "cfa510c2e40a9bea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627812489169,
+          "stop" : 1627812493731,
+          "duration" : 4562
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "440ac4f3b01f0874.json",
+  "parameterValues" : [ "Testing", "${SecondRequestText}" ]
+}

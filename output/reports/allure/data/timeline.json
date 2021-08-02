@@ -4,35 +4,87 @@
   "children" : [ {
     "name" : "EPBYGROW005C",
     "children" : [ {
-      "name" : "3540@EPBYGROW005C.batch-1-thread-1(34)",
+      "name" : "3332@EPBYGROW005C.batch-1-thread-1(34)",
       "children" : [ {
-        "name" : "Verify page title",
-        "uid" : "7d58de55c345e27",
-        "parentUid" : "fd97a106a5ed88adc67ff8c6d6c33ce6",
-        "status" : "failed",
+        "name" : "Task 2",
+        "uid" : "9b216c83a8e0be73",
+        "parentUid" : "d11717a8f78d322874aed44c724541f5",
+        "status" : "passed",
         "time" : {
-          "start" : 1627818376598,
-          "stop" : 1627818383238,
-          "duration" : 6640
+          "start" : 1627916831182,
+          "stop" : 1627916844746,
+          "duration" : 13564
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Open application under test",
-        "uid" : "855813c0f1c6419a",
-        "parentUid" : "fd97a106a5ed88adc67ff8c6d6c33ce6",
-        "status" : "passed",
+        "name" : "Task 3",
+        "uid" : "d7450143c271de1d",
+        "parentUid" : "d11717a8f78d322874aed44c724541f5",
+        "status" : "failed",
         "time" : {
-          "start" : 1627818370266,
-          "stop" : 1627818376584,
-          "duration" : 6318
+          "start" : 1627916844757,
+          "stop" : 1627916860150,
+          "duration" : 15393
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "Task 1 - SecondPart Work with API",
+        "uid" : "1af91f15442a7701",
+        "parentUid" : "d11717a8f78d322874aed44c724541f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627916829244,
+          "stop" : 1627916830144,
+          "duration" : 900
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Task 1 - ThirdPart Work with API",
+        "uid" : "8a5376ba7b5c49c8",
+        "parentUid" : "d11717a8f78d322874aed44c724541f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627916830148,
+          "stop" : 1627916831179,
+          "duration" : 1031
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Task 1 - Find info on learn.epam.com using Examples table [2]",
+        "uid" : "440ac4f3b01f0874",
+        "parentUid" : "d11717a8f78d322874aed44c724541f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627916826681,
+          "stop" : 1627916829241,
+          "duration" : 2560
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Testing", "${SecondRequestText}" ]
+      }, {
+        "name" : "Task 1 - Find info on learn.epam.com using Examples table [1]",
+        "uid" : "1dc97428450d67c7",
+        "parentUid" : "d11717a8f78d322874aed44c724541f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627916820753,
+          "stop" : 1627916826663,
+          "duration" : 5910
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Java", "Java" ]
       } ],
-      "uid" : "fd97a106a5ed88adc67ff8c6d6c33ce6"
+      "uid" : "d11717a8f78d322874aed44c724541f5"
     } ],
     "uid" : "5bbf84983038ae49dd76109d230f0463"
   } ]
